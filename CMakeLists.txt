@@ -123,7 +123,7 @@ if(USE_SINGLE_APP)
     include_directories(${CMAKE_CURRENT_SOURCE_DIR}/modules/SingleApplication)
 endif()
 
-if(ANDROID)
+if(ANDROID_NDK)
     add_library(${PROJECT_NAME} SHARED
                     ${DUKTO_HDR}
                     ${DUKTO_SRC}
